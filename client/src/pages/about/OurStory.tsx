@@ -25,10 +25,10 @@ export default function OurStory() {
               En Garde Fencing Academy was founded with a single, powerful belief: that fencing — one of the world's oldest and most intellectually demanding sports — deserves a home in Pune.
             </p>
             <p>
-              Founded by <strong>Shweta Avad</strong>, an international-level fencer who represented India at the Senior World Fencing Championships in 2005 (Russia) and 2007 (Germany), the academy was born out of a desire to give young athletes in Pune access to the same world-class training she experienced on the international stage.
+              Founded by <strong>Shweta Chandaliya Avad</strong>, an international-level fencer who represented India at the Senior World Fencing Championships in 2005 (Russia) and 2007 (Germany), the academy was born out of a desire to give young athletes in Pune access to the same world-class training she experienced on the international stage.
             </p>
             <p>
-              What started as a small group of enthusiastic beginners at the Shree Shiv Chhatrapati Sports Complex in Mahalunge has grown into a thriving community of over 200 trained athletes — from first-time beginners as young as 7 years old to national-level competitors.
+              What started as a small group of enthusiastic beginners at the Shree Shiv Chhatrapati Sports Complex in Mhalunge has grown into a thriving community of over 200 trained athletes — from first-time beginners as young as 7 years old to national-level competitors.
             </p>
             <p>
               The academy's growth has been driven not just by results — though those speak for themselves, with athletes winning medals at state, national, and international levels — but by a commitment to making fencing accessible to all. Through the <strong>Kosuke Sports Foundation</strong>, En Garde has extended its reach to students from Pune Municipal Corporation schools, giving underprivileged but talented young fencers a pathway to the sport.

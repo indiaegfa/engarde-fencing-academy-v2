@@ -25,13 +25,13 @@ export default function MeetFounder() {
             <div>
               <img
                 src="/images/coach-shweta.jpg"
-                alt="Shweta Avad — Head Coach & Founder"
+                alt="Shweta Chandaliya Avad — Head Coach & Founder"
                 className="w-full rounded-2xl shadow-xl object-cover aspect-[4/5]"
               />
             </div>
             {/* Bio */}
             <div>
-              <h2 className="text-3xl font-extrabold text-[#0d1f3c] mb-1" style={{ fontFamily: "Fira Sans, sans-serif" }}>Shweta Avad</h2>
+              <h2 className="text-3xl font-extrabold text-[#0d1f3c] mb-1" style={{ fontFamily: "Fira Sans, sans-serif" }}>Shweta Chandaliya Avad</h2>
               <p className="text-[#c8102e] font-semibold text-lg mb-6">Head Coach & Founder</p>
 
               <blockquote className="border-l-4 border-[#c8102e] pl-5 italic text-gray-600 mb-8 text-base leading-relaxed">
@@ -39,7 +39,7 @@ export default function MeetFounder() {
               </blockquote>
 
               <div className="space-y-4 text-gray-700">
-                <p>Shweta Avad is one of India's most accomplished fencers and a passionate advocate for the sport's growth in Maharashtra. Her journey from competitive athlete to founding coach is a story of dedication, sacrifice, and an unshakeable love for the piste.</p>
+                <p>Shweta Chandaliya Avad is one of India's most accomplished fencers and a passionate advocate for the sport's growth in Maharashtra. Her journey from competitive athlete to founding coach is a story of dedication, sacrifice, and an unshakeable love for the piste.</p>
                 <p>She represented India at the <strong>Senior World Fencing Championships</strong> in 2005 (Russia) and 2007 (Germany), and has competed at the Asian level, bringing international experience and perspective to every training session she leads.</p>
                 <p>A recipient of the prestigious <strong>Shiv Chhatrapati Award</strong> — Maharashtra's highest sporting honour — Shweta holds an <strong>NIS (National Institute of Sports) Certification</strong> in fencing coaching and has further honed her skills through training with the <strong>Italian Fencing Masters in 2025</strong>.</p>
                 <p>Beyond competition, Shweta is deeply committed to community impact. Through the Kosuke Sports Foundation, she has introduced fencing to students from Pune Municipal Corporation schools, believing that talent should never be limited by circumstance.</p>

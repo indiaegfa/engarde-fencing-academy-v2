@@ -10,7 +10,7 @@ function createAuthContext() {
   const user: AuthenticatedUser = {
     id: 1,
     openId: "test-user-engarde",
-    email: "coach@engardefencing.in",
+    email: "india.egfa@gmail.com",
     name: "Head Coach",
     loginMethod: "manus",
     role: "admin",

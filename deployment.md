@@ -86,11 +86,33 @@ In the Cloudflare Pages settings under **Settings > Environment variables**, add
 #### Step 4: Deploy
 Click **Save and Deploy**. In 1 to 2 minutes, Cloudflare will build your project and provide an active URL (e.g., `engarde-fencing-academy.pages.dev`).
 
-#### Step 5: Add Custom Domain
-1. In your Cloudflare Pages project, go to the **Custom domains** tab.
-2. Click **Set up a custom domain**.
-3. Enter your domain (e.g., `engardefencing.in` or `www.engardefencing.in`).
-4. Follow the automatic DNS activation. Cloudflare issues a free, auto-renewing SSL certificate within 15 minutes.
+#### Step 5: Connect Your Hostinger Domain (`egfa.in`)
+
+##### Option A: Cloudflare Managed Nameservers (Recommended — Best Speed & Auto-SSL)
+1. In Cloudflare dashboard, click **Websites** > **Add a site** > enter `egfa.in`.
+2. Choose the **Free** plan.
+3. Cloudflare will scan existing records and provide two Cloudflare nameservers (e.g., `adam.ns.cloudflare.com` and `eve.ns.cloudflare.com`).
+4. Log in to [Hostinger Control Panel (hPanel)](https://hpanel.hostinger.com/):
+   - Go to **Domains** > click on **`egfa.in`**.
+   - Under **DNS / Nameservers**, click **Change Nameservers**.
+   - Select **Change Cloudflare / Custom Nameservers** and paste the 2 nameservers provided by Cloudflare.
+   - Click **Save**.
+5. Back in Cloudflare Pages (`Compute (Workers & Pages) > Pages > engarde-fencing-academy`):
+   - Go to **Custom domains** tab > click **Set up a custom domain**.
+   - Enter `egfa.in` (and optionally `www.egfa.in`).
+   - Cloudflare will automatically configure the CNAME and DNS routing for you.
+
+##### Option B: Keep Hostinger Nameservers (Direct DNS Records)
+If you prefer keeping Hostinger's default nameservers:
+1. In Cloudflare Pages, go to **Custom domains** > **Set up a custom domain** > enter `egfa.in` and `www.egfa.in`.
+2. In Hostinger hPanel > **Domains** > **`egfa.in`** > **DNS / Nameservers**:
+   - Add/edit CNAME record:
+     - **Type**: `CNAME`
+     - **Name**: `www` (or `@` if supported by Hostinger ALIAS/ANAME)
+     - **Target / Value**: `engarde-fencing-academy.pages.dev`
+     - **TTL**: `Default` or `300`
+   - For root domain `@`:
+     - If Hostinger doesn't support CNAME flattening on root `@`, use Option A (Nameservers) which takes less than 2 minutes.
 
 ---
 

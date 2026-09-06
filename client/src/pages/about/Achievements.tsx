@@ -23,7 +23,7 @@ const HALL_OF_FAME: Athlete[] = [
       { label: "National Championships", value: "5x Individual Gold", color: "#c8102e" },
       { label: "State Championships", value: "Multiple Golds", color: "#1a2e5a" }
     ],
-    bio: "Jeejau won the Silver medal at the Thailand Open and is a 5-time National Individual Gold Medallist, consistently demonstrating elite mastery on the national and international stage.",
+    bio: "Jeejau won the Silver medal at the Thailand Open and is a 5-time National Individual Gold Medallist. She is now training with Vijayi Bharat Foundation in Gujarat and Italy.",
     badge: "🥈 Thailand Open Silver",
     badgeColor: "#c8102e"
   },

@@ -23,8 +23,8 @@ const STEPS = [
 const BRING = [
   { icon: Shirt, text: "Comfortable sportswear" },
   { icon: ShieldCheck, text: "Sports shoes" },
+  { icon: Smile, text: "2 tennis balls & skipping rope" },
   { icon: Droplets, text: "Water bottle" },
-  { icon: Smile, text: "A positive attitude!" },
 ];
 
 export default function EnrollSection() {

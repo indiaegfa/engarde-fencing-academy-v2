@@ -47,7 +47,7 @@ export default function BeginnerProgram() {
               </ul>
               <div className="mt-6 p-4 rounded-xl bg-[#0d1f3c] text-white">
                 <div className="font-bold mb-1" style={{ fontFamily: "Fira Sans, sans-serif" }}>What to Bring</div>
-                <p className="text-white/70 text-sm">Comfortable sportswear, sports shoes, and a water bottle. All fencing equipment is provided during the trial session.</p>
+                <p className="text-white/70 text-sm">Comfortable sportswear, sports shoes, 2 tennis balls, a skipping rope and a water bottle.</p>
               </div>
             </div>
           </div>

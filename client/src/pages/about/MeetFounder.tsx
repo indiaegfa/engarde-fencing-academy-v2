@@ -52,7 +52,6 @@ export default function MeetFounder() {
                   "Shiv Chhatrapati Award Recipient",
                   "NIS Certified Coach",
                   "Italian Fencing Masters 2025",
-                  "Asian Championship Experience",
                 ].map((cred) => (
                   <div key={cred} className="flex items-start gap-2 bg-[#f5f6f8] rounded-lg px-4 py-3 border border-gray-200">
                     <span className="text-[#c8102e] mt-0.5 flex-shrink-0">✦</span>

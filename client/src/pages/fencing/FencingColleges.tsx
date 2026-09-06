@@ -50,14 +50,6 @@ export default function FencingColleges() {
               </div>
             ))}
           </div>
-
-          <div className="bg-[#0d1f3c] rounded-2xl p-8 text-white">
-            <h3 className="text-xl font-bold mb-3" style={{ fontFamily: "Fira Sans, sans-serif" }}>Want to know more?</h3>
-            <p className="text-white/70 mb-4">Speak to our coaches about building a competitive record that supports your college ambitions. We can help you plan your fencing journey with academic goals in mind.</p>
-            <a href="/contact" className="inline-block bg-[#c8102e] hover:bg-[#a00d24] text-white font-bold px-6 py-3 rounded-lg transition-colors text-sm" style={{ fontFamily: "Fira Sans, sans-serif" }}>
-              Contact Us
-            </a>
-          </div>
         </div>
       </main>
       <Footer />

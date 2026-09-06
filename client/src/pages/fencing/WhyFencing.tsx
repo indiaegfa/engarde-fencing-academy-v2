@@ -8,7 +8,6 @@ const BENEFITS = [
   { icon: "🤝", title: "Respect & Sportsmanship", desc: "Fencing has a deep tradition of courtesy and respect. Athletes salute their opponents before and after every bout, building character and social values." },
   { icon: "🌍", title: "Global Sport", desc: "Fencing is played in over 150 countries and is one of only five sports present at every modern Olympic Games. It opens doors to international competition and travel." },
   { icon: "🏫", title: "School & College Opportunities", desc: "Fencing is recognised at ZP, CBSE, ISSO, KV, and ISF school games, and at university level through AIU. Athletes can earn sports quotas and scholarships." },
-  { icon: "👧", title: "Great for Girls", desc: "Fencing is one of the most gender-equal sports in the world. Women compete at the same level and in the same events as men at the Olympics. It builds confidence and assertiveness." },
   { icon: "🧘", title: "Individual Sport", desc: "Unlike team sports, fencing places full responsibility on the individual athlete. This builds self-reliance, accountability, and personal pride in achievement." },
 ];
 
@@ -24,7 +23,7 @@ export default function WhyFencing() {
               <span className="text-[#c8102e] font-semibold tracking-widest uppercase text-sm" style={{ fontFamily: "Fira Sans, sans-serif" }}>New to Fencing?</span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold mb-4" style={{ fontFamily: "Fira Sans, sans-serif" }}>Why Fencing?</h1>
-            <p className="text-white/70 text-lg max-w-2xl">Eight compelling reasons to choose fencing as your sport.</p>
+            <p className="text-white/70 text-lg max-w-2xl">Compelling reasons to choose fencing as your sport.</p>
           </div>
         </div>
 

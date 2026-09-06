@@ -59,7 +59,7 @@ export default function Giving() {
                   <img
                     src="/images/UnderprivilegedbuttalenedfencersfromPuneMuncipalitySchools_39452b1f.jpg"
                     alt="PMC school fencers supported by Kosuke Sports Foundation"
-                    className="w-full object-cover h-64 sm:h-72"
+                    className="w-full aspect-[3/2] object-cover"
                   />
                 </div>
                 <p className="text-xs text-gray-500 text-center italic">
@@ -84,9 +84,9 @@ export default function Giving() {
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 p-6 flex flex-col justify-between">
                 <img
-                  src="/images/KosukeSportsFoundationTeam_512bc14f.jpg"
-                  alt="Kosuke Sports Foundation Team"
-                  className="w-full h-56 object-cover rounded-2xl mb-4"
+                  src="/images/JuniorDistrict.jpg"
+                  alt="Dedicated Foundation Leadership"
+                  className="w-full aspect-[3/2] object-cover rounded-2xl mb-4"
                 />
                 <h3 className="font-bold text-xl text-[#0d1f3c] mb-2">Dedicated Foundation Leadership</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -96,9 +96,9 @@ export default function Giving() {
 
               <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 p-6 flex flex-col justify-between">
                 <img
-                  src="/images/kids_hug_5700b2fb.jpeg"
-                  alt="Joy of community fencing"
-                  className="w-full h-56 object-cover rounded-2xl mb-4"
+                  src="/images/Tuition.jpeg"
+                  alt="Holistic Athlete Mentorship"
+                  className="w-full aspect-[3/2] object-cover object-center rounded-2xl mb-4"
                 />
                 <h3 className="font-bold text-xl text-[#0d1f3c] mb-2">Holistic Athlete Mentorship</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -143,7 +143,7 @@ export default function Giving() {
           <div className="max-w-3xl mx-auto px-4">
             <h2 className="text-3xl font-extrabold mb-4">Sponsor a Future Champion</h2>
             <p className="text-white/80 mb-8 max-w-xl mx-auto text-sm sm:text-base">
-              Partner with Kosuke Sports Foundation to sponsor fencing kits, coaching fees, or tournament travel for talented youth.
+              Partner with Kosuke Sports Foundation to sponsor fencer, equipment, infrastructure, tournament, camp the talented youth.
             </p>
             <Link
               href="/contact"

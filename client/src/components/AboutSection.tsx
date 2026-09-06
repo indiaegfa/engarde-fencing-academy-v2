@@ -260,7 +260,7 @@ export default function AboutSection() {
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <img src="/images/kosuke-team.jpg" alt="Kosuke Sports Foundation Team" className="rounded-2xl shadow-xl w-full object-cover" style={{ maxHeight: 360 }} />
+              <img src="/images/kosuke-team.jpg" alt="Kosuke Sports Foundation Team" className="rounded-2xl shadow-xl w-full aspect-[3/2] object-cover" />
             </div>
             <div>
               <div className="flex items-center gap-4 mb-5">

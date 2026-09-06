@@ -110,7 +110,7 @@ export default function Donate() {
               </div>
               <div>
                 <div className="rounded-2xl overflow-hidden shadow-lg mb-4">
-                  <img src="/images/community-outreach.jpg" alt="Underprivileged fencers" className="w-full h-52 object-cover" />
+                  <img src="/images/community-outreach.jpg" alt="Underprivileged fencers" className="w-full aspect-[3/2] object-cover" />
                 </div>
                 <h4 className="text-[#0d1f3c] font-bold text-sm uppercase mb-3" style={{ fontFamily: "Fira Sans, sans-serif" }}>Where Your Donation Goes</h4>
                 <div className="grid grid-cols-2 gap-2">

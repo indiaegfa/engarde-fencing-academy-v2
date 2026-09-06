@@ -45,7 +45,7 @@ export default function WhyFencing() {
 
           <div className="mt-14 bg-[#0d1f3c] rounded-2xl p-8 text-white text-center">
             <h2 className="text-2xl font-extrabold mb-3" style={{ fontFamily: "Fira Sans, sans-serif" }}>Ready to try fencing?</h2>
-            <p className="text-white/70 mb-6">We welcome beginners from age 7 onwards. No experience needed — just enthusiasm.</p>
+            <p className="text-white/70 mb-6">We welcome beginners from age 6 onwards. No experience needed — just enthusiasm.</p>
             <a href="/enroll" className="inline-block bg-[#c8102e] hover:bg-[#a00d24] text-white font-bold px-8 py-3 rounded-lg transition-colors" style={{ fontFamily: "Fira Sans, sans-serif" }}>
               Book a Trial Class
             </a>

@@ -43,7 +43,7 @@ export default function StrengthConditioning() {
           </div>
           <div className="bg-[#0d1f3c] rounded-2xl p-8 text-white text-center">
             <h3 className="text-xl font-bold mb-3" style={{ fontFamily: "Fira Sans, sans-serif" }}>Interested in S&amp;C Training?</h3>
-            <p className="text-white/70 mb-5">Strength and conditioning is integrated into our Competitive Program and is available as a supplement for Intermediate athletes. Contact us to discuss options.</p>
+            <p className="text-white/70 mb-5">Contact us to discuss options for Strength and conditioning.</p>
             <Link href="/contact" className="inline-block bg-[#c8102e] hover:bg-[#a00d24] text-white font-bold px-8 py-3 rounded-lg transition-colors" style={{ fontFamily: "Fira Sans, sans-serif" }}>
               Contact Us
             </Link>

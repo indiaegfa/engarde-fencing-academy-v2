@@ -27,7 +27,7 @@ export default function BeginnerProgram() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
               <h2 className="text-2xl font-bold text-[#0d1f3c] mb-4" style={{ fontFamily: "Fira Sans, sans-serif" }}>About This Program</h2>
-              <p className="text-gray-700 leading-relaxed mb-6">Perfect for children and adults who are completely new to fencing. No prior experience is required — just enthusiasm, a willingness to learn, and comfortable sportswear. We welcome beginners from age 7 onwards.</p>
+              <p className="text-gray-700 leading-relaxed mb-6">Perfect for children and adults who are completely new to fencing. No prior experience is required — just enthusiasm, a willingness to learn, and comfortable sportswear. We welcome beginners from age 6 onwards.</p>
               <p className="text-gray-700 leading-relaxed mb-6">Our beginner program introduces you to the sport in a fun, safe, and structured environment. You will learn the basics of fencing — footwork, blade work, safety, and the rules of the game — while developing physical coordination, confidence, and discipline.</p>
               <div className="bg-green-50 border border-green-200 rounded-xl p-5 mb-6">
                 <div className="font-bold text-[#0d1f3c] mb-1" style={{ fontFamily: "Fira Sans, sans-serif" }}>Goal</div>

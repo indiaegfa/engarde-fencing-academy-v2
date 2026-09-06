@@ -64,7 +64,7 @@ export default function EnrollSection() {
             <strong className="text-[#0d1f3c]">En Garde Fencing Academy</strong> is the perfect place to start.
           </p>
           <p className="text-gray-500 mt-3 max-w-xl mx-auto">
-            We welcome children <strong>from 7 years onwards</strong>, teenagers, and adults of all skill levels.
+            We welcome children <strong>from 6 years onwards</strong>, teenagers, and adults of all skill levels.
             No prior experience required — just enthusiasm and a willingness to learn.
           </p>
         </div>

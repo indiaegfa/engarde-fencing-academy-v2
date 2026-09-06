@@ -281,7 +281,7 @@ export default function ProgramsSection() {
             Ready to Start Your Fencing Journey?
           </h2>
           <p className="text-white/80 mb-8 text-lg">
-            Join one of Pune's leading fencing academies. We welcome children from 7 years onwards, teenagers, and adults of all skill levels.
+            Join one of Pune's leading fencing academies. We welcome children from 6 years onwards, teenagers, and adults of all skill levels.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <Link href="/enroll" className="bg-[#c8102e] text-white font-bold rounded-lg px-8 py-3 hover:bg-[#a00d25] transition-colors">

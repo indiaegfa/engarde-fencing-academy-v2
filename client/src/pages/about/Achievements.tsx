@@ -15,40 +15,40 @@ interface Athlete {
 
 const HALL_OF_FAME: Athlete[] = [
   {
-    name: "Jeejau Patil",
+    name: "Jeejau Paatil",
     photo: "/images/JeejauPatil_916f38e8.jpg",
-    highlight: "2x Thailand Open Bronze · National Gold",
+    highlight: "Thailand Open Silver · 5x National Individual Gold",
     medals: [
-      { label: "Thailand Open", value: "2x Bronze", color: "#b8860b" },
-      { label: "National Championships", value: "Gold", color: "#c8102e" },
+      { label: "Thailand Open", value: "Silver", color: "#b8860b" },
+      { label: "National Championships", value: "5x Individual Gold", color: "#c8102e" },
       { label: "State Championships", value: "Multiple Golds", color: "#1a2e5a" }
     ],
-    bio: "Jeejau has represented India internationally at the Thailand Open, winning two bronze medals, and secured multiple National and State championship titles in foil.",
-    badge: "🏆 International Medallist",
+    bio: "Jeejau won the Silver medal at the Thailand Open and is a 5-time National Individual Gold Medallist, consistently demonstrating elite mastery on the national and international stage.",
+    badge: "🥈 Thailand Open Silver",
     badgeColor: "#c8102e"
   },
   {
     name: "Shaurya Ingawale",
     photo: "/images/shauryaingawale_hof_d28857bc.webp",
-    highlight: "National Gold Medallist · State Champion",
+    highlight: "ISF Games Serbia Bronze · SGFI School National Gold",
     medals: [
-      { label: "National Championships", value: "Gold", color: "#c8102e" },
-      { label: "State Championships", value: "Multiple Golds", color: "#1a2e5a" }
+      { label: "ISF Games, Serbia", value: "Bronze", color: "#b8860b" },
+      { label: "SGFI School Nationals", value: "Gold", color: "#c8102e" },
+      { label: "State & National", value: "Multi-Medallist", color: "#1a2e5a" }
     ],
-    bio: "A standout competitive talent, Shaurya clinched National Gold and has dominated state-level youth competitions with exceptional tactical footwork and blade discipline.",
-    badge: "🥇 National Champion",
+    bio: "Shaurya is an SGFI School National Gold Medalist, an ISF Games (Serbia) Bronze Medalist, and a many-time State and National Medallist.",
+    badge: "🥉 ISF Serbia Medallist",
     badgeColor: "#0d1f3c"
   },
   {
     name: "Rajveer Chokhat",
     photo: "/images/RajveerChokhat_hof_e6e1c569.webp",
-    highlight: "National Medallist · Senior Youth Mentor",
+    highlight: "U-17 State Bronze Medallist",
     medals: [
-      { label: "National Championships", value: "Silver / Bronze", color: "#c8102e" },
-      { label: "State Championships", value: "Gold", color: "#1a2e5a" }
+      { label: "Under-17 State Championship", value: "Bronze", color: "#c8102e" }
     ],
-    bio: "Rajveer combines fierce competitive excellence on the national circuit with mentoring junior fencers at the academy in tactical precision.",
-    badge: "⚔️ National Medallist",
+    bio: "Rajveer is a State Bronze medalist in the Under-17 State Championship, demonstrating tactical composure and skill.",
+    badge: "🥉 State Bronze Medallist",
     badgeColor: "#1a2e5a"
   },
   {
@@ -96,28 +96,6 @@ const HALL_OF_FAME: Athlete[] = [
     ],
     bio: "Kavish claimed Gold at the ISSO Nationals, proving himself as one of the academy's top performers at school-level national competition.",
     badge: "🥇 ISSO Champion",
-    badgeColor: "#c8102e"
-  },
-  {
-    name: "Parthi Bharat Vinchwekar",
-    photo: "/images/Parthi_2296dd6a.jpeg",
-    highlight: "State Medallist · Student Athlete Leader",
-    medals: [
-      { label: "State Championships", value: "Medallist", color: "#c8102e" }
-    ],
-    bio: "Parthi exemplifies student-athlete discipline, balancing high academic honors with competitive fencing podiums and youth leadership.",
-    badge: "⭐ Rising Champion",
-    badgeColor: "#0d1f3c"
-  },
-  {
-    name: "Vedika",
-    photo: "/images/Vedika_2fbea782.webp",
-    highlight: "Youth Competitive Fencer",
-    medals: [
-      { label: "District / State", value: "Medallist", color: "#c8102e" }
-    ],
-    bio: "Demonstrating explosive speed and tactical resilience, Vedika represents the promising next generation of En Garde competitors.",
-    badge: "⚡ Emerging Talent",
     badgeColor: "#c8102e"
   }
 ];

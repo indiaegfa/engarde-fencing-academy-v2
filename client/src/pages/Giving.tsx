@@ -143,7 +143,7 @@ export default function Giving() {
           <div className="max-w-3xl mx-auto px-4">
             <h2 className="text-3xl font-extrabold mb-4">Sponsor a Future Champion</h2>
             <p className="text-white/80 mb-8 max-w-xl mx-auto text-sm sm:text-base">
-              Partner with Kosuke Sports Foundation to sponsor fencer, equipment, infrastructure, tournament, camp the talented youth.
+              Partner with Kosuke Sports Foundation to sponsor fencer, equipment, infrastructure, tournament, camps.
             </p>
             <Link
               href="/contact"

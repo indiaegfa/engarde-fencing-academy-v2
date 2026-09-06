@@ -25,6 +25,7 @@ const COACHES = [
     philosophy:
       "Empowering Indian fencers to excel through resilience, discipline, and strategic thinking. Focusing on technical mastery, mental toughness, and positive growth, in a supportive environment that drives excellence, adaptability, and holistic development, promoting a culture of effort, progress, and sportsmanship in India's growing fencing.",
     credentials: [
+      "8 years trained in Sports Authority of India, Imphal",
       "5 years of coaching experience, including an internship at SAI, Guwahati",
       "Bachelor's degree in Physical Education; NIS diploma in fencing",
       "National Medalist",

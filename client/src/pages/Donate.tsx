@@ -144,40 +144,33 @@ export default function Donate() {
               ))}
             </div>
 
-            {/* Bank details + Donor form */}
+            {/* Contribution Details + Donor form */}
             <div className="grid lg:grid-cols-2 gap-8">
-              {/* Bank details */}
-              <div className="rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
-                <div className="px-6 py-4 flex items-center gap-3" style={{ background: "linear-gradient(135deg, #0d1f3c 0%, #1a2e5a 100%)" }}>
-                  <h3 className="text-white font-bold text-xl uppercase" style={{ fontFamily: "Fira Sans, sans-serif" }}>Donate Now</h3>
+              {/* Contribution Info */}
+              <div className="rounded-2xl overflow-hidden border border-gray-100 shadow-sm flex flex-col justify-between">
+                <div>
+                  <div className="px-6 py-4 flex items-center gap-3" style={{ background: "linear-gradient(135deg, #0d1f3c 0%, #1a2e5a 100%)" }}>
+                    <h3 className="text-white font-bold text-xl uppercase" style={{ fontFamily: "Fira Sans, sans-serif" }}>How to Contribute</h3>
+                  </div>
+                  <div className="p-6 bg-white space-y-5">
+                    <p className="text-gray-700 text-sm leading-relaxed">
+                      To support our athletes or sponsor fencing equipment and training, please fill out the donor information form or reach out directly to our team.
+                    </p>
+                    <div className="p-4 rounded-xl border border-gray-100 bg-[#f8f9fc] space-y-2">
+                      <div className="text-[#0d1f3c] font-bold text-xs uppercase tracking-wider" style={{ fontFamily: "Fira Sans, sans-serif" }}>
+                        Tax Exemption & Receipts
+                      </div>
+                      <p className="text-gray-600 text-xs leading-relaxed">
+                        Kosuke Sports Foundation is a registered Section 8 Company with 12A and 80G certifications. Donors are eligible for a 50% tax deduction under Section 80G. Form 10BE and official tax receipts are issued promptly for all contributions.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div className="p-6 bg-white">
-                  <div className="mb-5">
-                    <div className="text-[#0d1f3c] font-bold text-sm uppercase mb-3" style={{ fontFamily: "Fira Sans, sans-serif" }}>UPI</div>
-                    <div className="p-3 rounded-lg font-mono text-sm font-bold text-[#c8102e]" style={{ background: "#fff5f7", border: "1px solid rgba(200,16,46,0.2)" }}>
-                      UPI ID: [Contact us for UPI details]
-                    </div>
-                  </div>
-                  <div>
-                    <div className="text-[#0d1f3c] font-bold text-sm uppercase mb-3" style={{ fontFamily: "Fira Sans, sans-serif" }}>Bank Transfer</div>
-                    <div className="space-y-2">
-                      {[
-                        { label: "Account Name", val: "Kosuke Sports Foundation" },
-                        { label: "Bank", val: "IDFC Bank" },
-                        { label: "Account Number", val: "10187251718" },
-                        { label: "IFSC Code", val: "IDFB0041375" },
-                      ].map(({ label, val }) => (
-                        <div key={label} className="flex justify-between items-center py-2 border-b border-gray-100">
-                          <span className="text-gray-500 text-sm">{label}</span>
-                          <span className="text-[#0d1f3c] font-bold text-sm">{val}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                  <div className="mt-5 p-3 rounded-lg" style={{ background: "#f0f4ff" }}>
-                    <div className="text-[#0d1f3c] font-bold text-xs uppercase mb-1" style={{ fontFamily: "Fira Sans, sans-serif" }}>Contact</div>
-                    <div className="text-gray-600 text-sm">india.egfa@gmail.com</div>
-                    <div className="text-gray-600 text-sm">+91 91580 71777</div>
+                <div className="p-6 pt-0">
+                  <div className="p-4 rounded-xl" style={{ background: "#f0f4ff" }}>
+                    <div className="text-[#0d1f3c] font-bold text-xs uppercase mb-2" style={{ fontFamily: "Fira Sans, sans-serif" }}>Direct Inquiries</div>
+                    <div className="text-gray-700 text-sm font-medium">india.egfa@gmail.com</div>
+                    <div className="text-gray-700 text-sm font-medium">+91 91580 71777</div>
                   </div>
                 </div>
               </div>

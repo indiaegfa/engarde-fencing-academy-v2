@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Link } from "wouter";
-import { Heart, ShieldCheck, Award, Users, CheckCircle, ArrowRight, Building, FileCheck } from "lucide-react";
+import { Heart, ShieldCheck, Award, Users, CheckCircle, ArrowRight, FileCheck } from "lucide-react";
 
 export default function Giving() {
   return (
@@ -107,37 +107,8 @@ export default function Giving() {
               </div>
             </div>
 
-            {/* Tax Exemption & Bank Details Cards */}
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-white rounded-3xl p-8 border border-gray-200 shadow-sm">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="w-10 h-10 rounded-xl bg-[#0d1f3c]/10 text-[#0d1f3c] flex items-center justify-center">
-                    <Building size={20} />
-                  </div>
-                  <h3 className="text-xl font-bold text-[#0d1f3c]">Direct Bank Transfer (NEFT/RTGS)</h3>
-                </div>
-                <div className="space-y-3 text-xs sm:text-sm text-gray-700">
-                  <div className="p-3 bg-gray-50 rounded-xl">
-                    <span className="text-gray-400 text-[10px] uppercase font-bold tracking-wider block">Account Name</span>
-                    <span className="font-bold text-[#0d1f3c]">Kosuke Sports Foundation</span>
-                  </div>
-                  <div className="p-3 bg-gray-50 rounded-xl">
-                    <span className="text-gray-400 text-[10px] uppercase font-bold tracking-wider block">Bank & Branch</span>
-                    <span className="font-bold text-[#0d1f3c]">IDFC FIRST Bank, Pune</span>
-                  </div>
-                  <div className="grid grid-cols-2 gap-3">
-                    <div className="p-3 bg-gray-50 rounded-xl">
-                      <span className="text-gray-400 text-[10px] uppercase font-bold tracking-wider block">Account Number</span>
-                      <span className="font-mono font-bold text-[#c8102e]">10187251718</span>
-                    </div>
-                    <div className="p-3 bg-gray-50 rounded-xl">
-                      <span className="text-gray-400 text-[10px] uppercase font-bold tracking-wider block">IFSC Code</span>
-                      <span className="font-mono font-bold text-[#0d1f3c]">IDFB0041375</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
+            {/* Tax Exemption Card */}
+            <div className="max-w-2xl mx-auto">
               <div className="bg-white rounded-3xl p-8 border border-gray-200 shadow-sm">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-10 h-10 rounded-xl bg-[#c8102e]/10 text-[#c8102e] flex items-center justify-center">

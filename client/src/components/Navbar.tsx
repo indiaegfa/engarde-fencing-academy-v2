@@ -204,12 +204,12 @@ export default function Navbar() {
           </div>
 
           <span className="text-white/20">|</span>
-          <span className="text-white/80 text-[12px] flex items-center gap-1 font-medium">
-            <Phone size={13} className="text-[#c8102e]" /> +91 9356226379
-          </span>
+          <a href="tel:+919158071777" className="text-white/80 hover:text-white text-[12px] flex items-center gap-1 font-medium transition-colors">
+            <Phone size={13} className="text-[#c8102e]" /> +91 91580 71777
+          </a>
           <span className="text-white/20">|</span>
           <span className="text-white/80 text-[12px] flex items-center gap-1 font-medium">
-            <MapPin size={13} className="text-[#c8102e]" /> Sus / Hinjewadi, Pune
+            <MapPin size={13} className="text-[#c8102e]" /> Shree Shiv Chhatrapati Sports Complex, Mhalunge, Pune
           </span>
           <Link
             href="/enroll"

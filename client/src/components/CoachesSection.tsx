@@ -2,7 +2,7 @@ import { Link } from "wouter";
 
 const COACHES = [
   {
-    name: "Shweta Avad",
+    name: "Shweta Chandaliya Avad",
     title: "Head Coach & Founder",
     photo: "/images/ShwetaChandaliyaAvad_7d7241d5.jpg",
     philosophy:

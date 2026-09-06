@@ -1,16 +1,16 @@
-import { MapPin, Phone, Mail, Clock, Instagram, Facebook, Youtube, MessageCircle } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Instagram, Facebook, Twitter, MessageCircle } from "lucide-react";
 
 const CONTACT_INFO = [
   {
     icon: MapPin,
     label: "Academy Address",
-    value: "1st Floor, Badminton Hall, Shree Shiv Chhatrapati Sports Complex, Mahalunge, Pune – 411045",
-    sub: "Shree Shiv Chhatrapati Sports Complex, Mahalunge",
+    value: "1st Floor, Badminton Hall, Shree Shiv Chhatrapati Sports Complex, Mhalunge, Pune – 411045",
+    sub: "Shree Shiv Chhatrapati Sports Complex, Mhalunge, Pune",
     href: null,
   },
   {
     icon: Phone,
-    label: "Phone / WhatsApp",
+    label: "Phone",
     value: "+91 91580 71777",
     sub: "Mon–Sat, 9:00 AM – 7:00 PM",
     href: "tel:+919158071777",
@@ -103,11 +103,12 @@ export default function ContactSection() {
               >
                 Follow En Garde
               </h3>
-              <div className="flex gap-4">
+              <div className="flex flex-wrap gap-3">
                 {[
                   { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/engarde_fencingacademy?igsh=YTY3b2thcXM2ZGF3&utm_source=qr" },
                   { icon: Facebook, label: "Facebook", href: "https://www.facebook.com/EGFencingAcademy" },
-                  { icon: Youtube, label: "YouTube", href: "https://youtube.com/@engardefencing" },
+                  { icon: Twitter, label: "Twitter / X", href: "https://x.com/IndiaEnGarde" },
+                  { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/919356226379" },
                 ].map(({ icon: SIcon, label, href }) => (
                   <a
                     key={label}
@@ -145,7 +146,7 @@ export default function ContactSection() {
             </div>
             {/* Google Map embed — replace with actual embed URL */}
             <iframe
-              src="https://maps.google.com/maps?q=Shree+Shiv+Chhatrapati+Sports+Complex+Mahalunge+Pune&output=embed"
+              src="https://maps.google.com/maps?q=Shree+Shiv+Chhatrapati+Sports+Complex+Mhalunge+Pune&output=embed"
               width="100%"
               height="380"
               style={{ border: "none", display: "block" }}

@@ -120,27 +120,26 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin size={16} className="text-[#c8102e] flex-shrink-0 mt-0.5" />
                 <div>
-                  <strong className="text-[#0d1f3c] block mb-0.5">Sus Center:</strong>
-                  S. No. 45/1/1, Behind Shell Petrol Pump, Mumbai-Bengaluru Highway, Sus, Pune 411021
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <MapPin size={16} className="text-[#c8102e] flex-shrink-0 mt-0.5" />
-                <div>
-                  <strong className="text-[#0d1f3c] block mb-0.5">Hinjewadi Campus:</strong>
-                  Delhi Public School, Hinjewadi, Pune
+                  <strong className="text-[#0d1f3c] block mb-0.5">Academy Location:</strong>
+                  1st Floor, Badminton Hall, Shree Shiv Chhatrapati Sports Complex, Mhalunge, Pune – 411045
                 </div>
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={16} className="text-[#c8102e] flex-shrink-0" />
-                <a href="tel:+919356226379" className="hover:text-[#c8102e] transition-colors font-medium">
-                  +91 9356226379
+                <a href="tel:+919158071777" className="hover:text-[#c8102e] transition-colors font-medium">
+                  +91 91580 71777
+                </a>
+              </div>
+              <div className="flex items-center gap-3">
+                <MessageCircle size={16} className="text-[#25D366] flex-shrink-0" />
+                <a href="https://wa.me/919356226379" target="_blank" rel="noopener noreferrer" className="hover:text-[#25D366] transition-colors font-medium">
+                  WhatsApp: +91 93562 26379
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={16} className="text-[#c8102e] flex-shrink-0" />
-                <a href="mailto:contact@engardefencing.in" className="hover:text-[#c8102e] transition-colors font-medium">
-                  contact@engardefencing.in
+                <a href="mailto:india.egfa@gmail.com" className="hover:text-[#c8102e] transition-colors font-medium">
+                  india.egfa@gmail.com
                 </a>
               </div>
             </div>

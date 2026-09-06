@@ -37,7 +37,7 @@
 - [x] Contact updated: Shree Shiv Chhatrapati Sports Complex, Mahalunge, Pune 411045 | +91 91580 71777 | india.egfa@gmail.com
 - [x] Google Map updated to Shree Shiv Chhatrapati Sports Complex, Mahalunge, Pune
 - [x] Social links updated: Instagram @engarde_fencingacademy, Facebook /EGFencingAcademy
-- [x] Head Coach: Shweta Avad — full profile with photo, World Champs 2005/2007, Shiv Chhatrapati Award, NIS, Italian masters
+- [x] Head Coach: Shweta Chandaliya Avad — full profile with photo, World Champs 2005/2007, Shiv Chhatrapati Award, NIS, Italian masters
 - [x] Phone: +91 91580 71777 | WhatsApp: +91 93562 26379
 
 ## Rebuild From Scratch — DOCX + New Photo Set

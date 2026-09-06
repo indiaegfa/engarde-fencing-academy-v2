@@ -83,7 +83,7 @@ function Router() {
       {/* Main pages */}
       <Route path="/coaches" component={Coaches} />
       <Route path="/gallery" component={Gallery} />
-      <Route path="/news" component={News} />
+      <Route path="/news" component={Events} />
       <Route path="/partners" component={Partners} />
       <Route path="/enroll" component={Enroll} />
       <Route path="/contact" component={Contact} />

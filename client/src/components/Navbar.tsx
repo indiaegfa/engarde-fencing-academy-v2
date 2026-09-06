@@ -37,9 +37,8 @@ const NAV = [
   },
   { label: "Our Team", href: "/coaches" },
   {
-    label: "News & Events",
+    label: "Events & Gallery",
     children: [
-      { label: "News", href: "/news" },
       { label: "Events", href: "/events" },
       { label: "Gallery", href: "/gallery" },
     ],

@@ -27,27 +27,6 @@ const EVENT_HIGHLIGHTS = [
   }
 ];
 
-const CAMPS_AND_WORKSHOPS = [
-  {
-    season: "Summer High-Performance Camp",
-    dates: "May – June Annually",
-    desc: "Intensive training with international guest masters, tactical video analysis, and multi-club sparring.",
-    color: "#c8102e"
-  },
-  {
-    season: "Winter Championship Prep Camp",
-    dates: "December – January Annually",
-    desc: "Competition simulation, conditioning taper, and bout refereeing for National Championship qualification.",
-    color: "#0d1f3c"
-  },
-  {
-    season: "School & Institutional Clinics",
-    dates: "Year-Round",
-    desc: "Hands-on fencing clinics for CBSE, ICSE, and IB schools looking to launch fencing clubs.",
-    color: "#e8a020"
-  }
-];
-
 export default function Events() {
   return (
     <div className="min-h-screen flex flex-col bg-white" style={{ fontFamily: "Fira Sans, sans-serif" }}>
@@ -66,7 +45,7 @@ export default function Events() {
               Events & Outreach
             </h1>
             <p className="text-white/80 text-lg max-w-2xl mx-auto">
-              From open public festivals to national training camps, discovering fencing across Pune.
+              From open public festivals to grassroots initiatives, discovering fencing across Pune.
             </p>
           </div>
         </div>
@@ -106,27 +85,6 @@ export default function Events() {
                       <p className="text-gray-600 text-xs sm:text-sm leading-relaxed mb-4">{event.desc}</p>
                     </div>
                   </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        {/* Camps and Workshops */}
-        <div className="py-16" style={{ background: "#f8f9fc" }}>
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-            <div className="text-center mb-12">
-              <span className="inline-block w-12 h-1 bg-[#c8102e] mb-3 rounded" />
-              <h2 className="text-3xl font-extrabold text-[#0d1f3c]">Training Camps & Workshops</h2>
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-6">
-              {CAMPS_AND_WORKSHOPS.map((camp) => (
-                <div key={camp.season} className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-                  <div className="w-3 h-3 rounded-full mb-3" style={{ background: camp.color }} />
-                  <h3 className="font-bold text-lg text-[#0d1f3c] mb-1">{camp.season}</h3>
-                  <p className="text-xs text-[#c8102e] font-semibold mb-3">{camp.dates}</p>
-                  <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">{camp.desc}</p>
                 </div>
               ))}
             </div>

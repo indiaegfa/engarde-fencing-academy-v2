@@ -9,7 +9,7 @@ const QUICK_LINKS = [
   { label: "Our Team", href: "/coaches" },
   { label: "Achievements & Medals", href: "/about/achievements" },
   { label: "Blog", href: "/blog" },
-  { label: "News & Events", href: "/news" },
+  { label: "Events", href: "/events" },
   { label: "Gallery", href: "/gallery" },
   { label: "School Partners", href: "/partners" },
   { label: "Support the Mission", href: "/support-the-mission" },

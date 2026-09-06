@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Link } from "wouter";
-import { Zap, Clock, ShieldCheck, Award, CheckCircle, HelpCircle, ArrowRight } from "lucide-react";
+import { Zap, ShieldCheck, CheckCircle, ArrowRight } from "lucide-react";
 
 export default function OpenFencing() {
   return (
@@ -36,13 +36,12 @@ export default function OpenFencing() {
                 Open Fencing is designed for fencers who want unstructured bouting time to apply what they have learned in class, test tactics against diverse opponents, and prepare for upcoming district, state, and national tournaments.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Fencers of all three weapons (Foil, Épée, Sabre) are welcome. Our full-length electric pistes with electronic scoring apparatus provide realistic competition simulation under certified referee guidance.
+                Our full-length electric pistes with electronic scoring apparatus provide realistic competition simulation under certified referee guidance.
               </p>
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                 {[
                   { label: "Full Electric Pistes", icon: Zap },
                   { label: "Refereed Bouts", icon: ShieldCheck },
-                  { label: "All 3 Weapons", icon: Award },
                   { label: "Tournament Prep", icon: CheckCircle }
                 ].map(({ label, icon: Icon }) => (
                   <div key={label} className="flex items-center gap-2 p-3 bg-gray-50 rounded-xl border border-gray-100">
@@ -56,53 +55,8 @@ export default function OpenFencing() {
               <img
                 src="/images/OpenFencing_6e32dac3.webp"
                 alt="Open Fencing bouting session"
-                className="w-full rounded-2xl shadow-xl object-cover h-[380px]"
+                className="w-full rounded-2xl shadow-xl object-cover aspect-[4/3]"
               />
-            </div>
-          </div>
-
-          {/* Key Details Cards */}
-          <div className="grid md:grid-cols-3 gap-6 mb-16">
-            <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm">
-              <div className="w-10 h-10 rounded-xl bg-[#0d1f3c]/10 text-[#0d1f3c] flex items-center justify-center mb-4">
-                <Clock size={20} />
-              </div>
-              <h3 className="font-bold text-lg text-[#0d1f3c] mb-2">Schedule & Timings</h3>
-              <p className="text-gray-600 text-sm leading-relaxed mb-3">
-                Open bouts take place on dedicated evening slots and weekend mornings.
-              </p>
-              <ul className="text-xs text-gray-500 space-y-1">
-                <li>• Wednesday & Friday: 6:30 PM – 8:30 PM</li>
-                <li>• Sunday Sparring: 9:00 AM – 12:00 PM</li>
-              </ul>
-            </div>
-
-            <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm">
-              <div className="w-10 h-10 rounded-xl bg-[#c8102e]/10 text-[#c8102e] flex items-center justify-center mb-4">
-                <ShieldCheck size={20} />
-              </div>
-              <h3 className="font-bold text-lg text-[#0d1f3c] mb-2">Eligibility & Gear</h3>
-              <p className="text-gray-600 text-sm leading-relaxed mb-3">
-                Open to intermediate and advanced enrolled fencers as well as registered visiting athletes.
-              </p>
-              <ul className="text-xs text-gray-500 space-y-1">
-                <li>• Full 350N/800N protective gear required</li>
-                <li>• Own electric weapon & body wire</li>
-              </ul>
-            </div>
-
-            <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm">
-              <div className="w-10 h-10 rounded-xl bg-[#e8a020]/10 text-[#e8a020] flex items-center justify-center mb-4">
-                <Award size={20} />
-              </div>
-              <h3 className="font-bold text-lg text-[#0d1f3c] mb-2">Passes & Pricing</h3>
-              <p className="text-gray-600 text-sm leading-relaxed mb-3">
-                Free for Competitive Batch members. Drop-in passes available for visiting athletes.
-              </p>
-              <ul className="text-xs text-gray-500 space-y-1">
-                <li>• Included in Competitive enrollment</li>
-                <li>• Drop-in Day Pass: ₹500 / session</li>
-              </ul>
             </div>
           </div>
 

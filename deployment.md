@@ -63,56 +63,81 @@ The website is a React 19 single-page application (built with Vite and Tailwind 
 
 ### Method 1: Cloudflare Pages (Recommended — ₹0 / yr)
 
-#### Step 1: Connect Git Repository
-1. Create a free account at [dash.cloudflare.com](https://dash.cloudflare.com/).
-2. In the left navigation, go to **Compute (Workers & Pages)** > **Pages**.
-3. Click **Create Application** > **Connect to Git**.
-4. Select GitHub and authorize access to repository:
+> [!IMPORTANT]
+> **CRITICAL — Select "Pages", NOT "Workers"**:
+> Cloudflare's dashboard groups Workers & Pages together under **Compute (Workers & Pages)**.
+> - **Workers** is for serverless backend scripts (requires `npx wrangler deploy`).
+> - **Pages** is for static frontend websites like this React Vite app (deploys `dist/public` directly with **zero deploy command**).
+> Make sure you click the **Pages** tab before connecting Git!
+
+#### Step 1: Create a Pages Application
+1. Log in to [dash.cloudflare.com](https://dash.cloudflare.com/).
+2. In the left navigation, click **Compute (Workers & Pages)**.
+3. At the top of the page, click the **Pages** tab (do not click the "Workers" tab).
+4. Click **Connect to Git** (or **Create application** > select **Pages** > **Connect to Git**).
+5. Select your GitHub account and choose repository:
    `indiaegfa/engarde-fencing-academy-v2`
+6. Click **Begin setup**.
 
 #### Step 2: Configure Build Settings
 Fill in the deployment form with the following exact settings:
-- **Project Name**: `engarde-fencing-academy`
+- **Project Name**: `engarde-fencing-academy` (or `egfa`)
 - **Production Branch**: `main`
-- **Framework Preset**: `Vite`
-- **Build Command**: `pnpm run build:client` (or `npm run build:client`)
+- **Framework Preset**: Select **Vite** (or **None**)
+- **Build Command**: `pnpm run build:client`
 - **Build Output Directory**: `dist/public`
-- **Root Directory**: leave blank (root `/`)
+- **Root Directory**: *(leave blank)*
 
-#### Step 3: Set Environment Variables (Optional)
-In the Cloudflare Pages settings under **Settings > Environment variables**, add:
-- `NODE_VERSION`: `20`
+> [!NOTE]
+> In Cloudflare Pages, there is **no Deploy Command** field. Cloudflare automatically takes the files generated in `dist/public` and distributes them globally across its edge network.
+
+#### Step 3: Add Environment Variable (Recommended)
+Expand the **Environment variables** dropdown and add:
+- **Variable name**: `NODE_VERSION`
+- **Value**: `20`
 
 #### Step 4: Deploy
-Click **Save and Deploy**. In 1 to 2 minutes, Cloudflare will build your project and provide an active URL (e.g., `engarde-fencing-academy.pages.dev`).
+Click **Save and Deploy**.
+- In about 60–90 seconds, Cloudflare will install dependencies with `pnpm`, run `vite build`, and publish all 95 assets.
+- You will receive an instant, working `*.pages.dev` preview URL (e.g. `https://engarde-fencing-academy.pages.dev`).
+- Test opening the link: all routes, photos, coaches, and blogs will load instantly with HTTPS.
+
+---
 
 #### Step 5: Connect Your Hostinger Domain (`egfa.in`)
 
-##### Option A: Cloudflare Managed Nameservers (Recommended — Best Speed & Auto-SSL)
-1. In Cloudflare dashboard, click **Websites** > **Add a site** > enter `egfa.in`.
-2. Choose the **Free** plan.
-3. Cloudflare will scan existing records and provide two Cloudflare nameservers (e.g., `adam.ns.cloudflare.com` and `eve.ns.cloudflare.com`).
-4. Log in to [Hostinger Control Panel (hPanel)](https://hpanel.hostinger.com/):
-   - Go to **Domains** > click on **`egfa.in`**.
-   - Under **DNS / Nameservers**, click **Change Nameservers**.
-   - Select **Change Cloudflare / Custom Nameservers** and paste the 2 nameservers provided by Cloudflare.
-   - Click **Save**.
-5. Back in Cloudflare Pages (`Compute (Workers & Pages) > Pages > engarde-fencing-academy`):
-   - Go to **Custom domains** tab > click **Set up a custom domain**.
-   - Enter `egfa.in` (and optionally `www.egfa.in`).
-   - Cloudflare will automatically configure the CNAME and DNS routing for you.
+Now connect the domain you purchased from Hostinger (`egfa.in`):
 
-##### Option B: Keep Hostinger Nameservers (Direct DNS Records)
-If you prefer keeping Hostinger's default nameservers:
-1. In Cloudflare Pages, go to **Custom domains** > **Set up a custom domain** > enter `egfa.in` and `www.egfa.in`.
-2. In Hostinger hPanel > **Domains** > **`egfa.in`** > **DNS / Nameservers**:
-   - Add/edit CNAME record:
-     - **Type**: `CNAME`
-     - **Name**: `www` (or `@` if supported by Hostinger ALIAS/ANAME)
-     - **Target / Value**: `engarde-fencing-academy.pages.dev`
-     - **TTL**: `Default` or `300`
-   - For root domain `@`:
-     - If Hostinger doesn't support CNAME flattening on root `@`, use Option A (Nameservers) which takes less than 2 minutes.
+##### Step 5A: Add Domain to Cloudflare DNS (Free Plan)
+1. In Cloudflare dashboard, click **Websites** in the top/left navigation.
+2. Click **Add a site** (or **Add domain**).
+3. Type: `egfa.in` and click **Continue**.
+4. Select the **Free** plan ($0) and click **Continue**.
+5. Cloudflare will scan for existing DNS records. Click **Continue**.
+6. Cloudflare will display **2 Assigned Nameservers**. They look like:
+   - `something.ns.cloudflare.com`
+   - `somethingelse.ns.cloudflare.com`
+   *(Copy these two nameserver addresses).*
+
+##### Step 5B: Update Nameservers in Hostinger hPanel
+1. Open a new tab and log in to [Hostinger hPanel](https://hpanel.hostinger.com/).
+2. In the top navigation, click **Domains** > click on **`egfa.in`**.
+3. In the left sidebar, click **DNS / Nameservers**.
+4. In the Nameservers card, click **Change Nameservers**.
+5. Choose **Change Cloudflare / Custom Nameservers**.
+6. Paste the 2 Cloudflare nameservers:
+   - **Nameserver 1**: `...ns.cloudflare.com`
+   - **Nameserver 2**: `...ns.cloudflare.com`
+7. Click **Save**.
+   *(Nameserver propagation usually takes between 5 and 30 minutes).*
+
+##### Step 5C: Link Domain to your Pages Project
+1. Return to Cloudflare Dashboard > **Compute (Workers & Pages)** > **Pages** > click **`engarde-fencing-academy`**.
+2. Click the **Custom domains** tab.
+3. Click **Set up a custom domain**.
+4. Enter `egfa.in` and click **Continue** > **Activate domain**.
+5. Click **Set up a custom domain** again, enter `www.egfa.in`, and click **Activate domain**.
+6. Cloudflare will automatically configure the SSL/TLS certificate and point both `https://egfa.in` and `https://www.egfa.in` to your website!
 
 ---
 

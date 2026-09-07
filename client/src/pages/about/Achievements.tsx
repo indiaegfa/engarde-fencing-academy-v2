@@ -41,6 +41,18 @@ const HALL_OF_FAME: Athlete[] = [
     badgeColor: "#0d1f3c"
   },
   {
+    name: "Minakshi Shinde",
+    photo: "/images/Minakshi Shinde.jpeg",
+    highlight: "Senior State Medallist · Historic First for EGFA",
+    medals: [
+      { label: "Senior State Championship", value: "Medallist", color: "#c8102e" },
+      { label: "Milestone", value: "1st Senior State Medal for EGFA", color: "#1a2e5a" }
+    ],
+    bio: "Minakshi Shinde is the first fencer from En Garde Fencing Academy to win a state medal in the Senior category, marking a historic milestone for EGFA.",
+    badge: "🥈 Senior State Medallist",
+    badgeColor: "#c8102e"
+  },
+  {
     name: "Rajveer Chokhat",
     photo: "/images/RajveerChokhat_hof_e6e1c569.webp",
     highlight: "U-17 State Bronze Medallist",

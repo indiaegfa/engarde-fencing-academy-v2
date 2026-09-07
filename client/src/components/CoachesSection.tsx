@@ -4,7 +4,7 @@ const COACHES = [
   {
     name: "Shweta Chandaliya Avad",
     title: "Head Coach & Founder",
-    photo: "/images/ShwetaChandaliyaAvad_7d7241d5.jpg",
+    photo: "/images/OurFounder.jpg",
     philosophy:
       "I simply love fencing. What fascinates me most is the silent conversation between two fencers on the piste—no words, only actions, strategy, and instinct. It's a language of its own, and I never want to put my weapon down. I love coaching at every level—from beginners taking their first steps to athletes preparing for competition. There's no greater joy than hearing a student say, 'Ma'am, I applied this skill and got a touché.' Those moments make everything worthwhile.",
     credentials: [
@@ -133,7 +133,7 @@ export default function CoachesSection() {
               <img
                 src={headCoach.photo}
                 alt={headCoach.name}
-                className="rounded-2xl shadow-xl w-full object-cover"
+                className="rounded-2xl shadow-xl w-full object-cover object-center aspect-[3/4]"
                 style={{ maxHeight: 480 }}
               />
               <div className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur rounded-xl p-4 shadow-lg">

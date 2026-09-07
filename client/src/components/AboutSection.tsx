@@ -104,7 +104,7 @@ export default function AboutSection() {
           </div>
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div className="flex flex-col gap-4">
-              <img src="/images/coach-shweta.jpg" alt="Shweta Chandaliya Avad" className="rounded-2xl shadow-xl w-full object-cover object-top" style={{ maxHeight: 440 }} />
+              <img src="/images/OurFounder.jpg" alt="Shweta Chandaliya Avad" className="rounded-2xl shadow-xl w-full object-cover object-center aspect-[3/4]" style={{ maxHeight: 480 }} />
               <div className="bg-[#0d1f3c] text-white rounded-2xl p-5">
                 <div className="text-lg font-bold mb-1" style={{ fontFamily: "Fira Sans, sans-serif" }}>Shweta Chandaliya Avad</div>
                 <div className="text-[#c8102e] text-sm font-semibold uppercase tracking-wide mb-3">Founder & Head Coach</div>

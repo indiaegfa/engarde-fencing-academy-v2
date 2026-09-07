@@ -24,9 +24,9 @@ export default function MeetFounder() {
             {/* Photo */}
             <div>
               <img
-                src="/images/coach-shweta.jpg"
+                src="/images/OurFounder.jpg"
                 alt="Shweta Chandaliya Avad — Head Coach & Founder"
-                className="w-full rounded-2xl shadow-xl object-cover aspect-[4/5]"
+                className="w-full rounded-2xl shadow-xl object-cover aspect-[3/4] object-center"
               />
             </div>
             {/* Bio */}

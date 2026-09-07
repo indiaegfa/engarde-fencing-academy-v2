@@ -4,7 +4,7 @@ const COACHES = [
   {
     name: "Shweta Chandaliya Avad",
     title: "Head Coach & Founder",
-    photo: "/images/OurFounder.jpg",
+    photo: "/images/HeadCoach.jpg",
     philosophy:
       "I simply love fencing. What fascinates me most is the silent conversation between two fencers on the piste—no words, only actions, strategy, and instinct. It's a language of its own, and I never want to put my weapon down. I love coaching at every level—from beginners taking their first steps to athletes preparing for competition. There's no greater joy than hearing a student say, 'Ma'am, I applied this skill and got a touché.' Those moments make everything worthwhile.",
     credentials: [

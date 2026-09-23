@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Link } from "wouter";
-import { Heart, ShieldCheck, Award, Users, CheckCircle, ArrowRight, FileCheck } from "lucide-react";
+import { Heart, ShieldCheck, Award, Users, CheckCircle, ArrowRight, FileCheck, ExternalLink, Building2 } from "lucide-react";
 
 export default function Giving() {
   return (
@@ -50,7 +50,7 @@ export default function Giving() {
                     Through the foundation, En Garde Fencing Academy provides free world-class fencing instruction, protective gear, and competition sponsorships to children from <strong>Pune Municipal Corporation (PMC) schools</strong> and marginalized communities.
                   </p>
                   <p>
-                    We believe financial circumstances should never prevent a child with raw talent, passion, and discipline from representing India on the world stage.
+                    Supported and trusted by leading organizations including <strong>Brintons</strong> and <strong>Qualys</strong>, we believe financial circumstances should never prevent a child with raw talent, passion, and discipline from representing India on the world stage.
                   </p>
                 </div>
               </div>
@@ -66,6 +66,107 @@ export default function Giving() {
                   Talented young fencers from Pune Municipal Corporation schools training under our full scholarship program
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Supported & Trusted By */}
+        <div className="py-16 bg-[#f8f9fc] border-y border-gray-200/80">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
+            <div className="text-center mb-12">
+              <span className="inline-block w-12 h-1 bg-[#c8102e] mb-3 rounded" />
+              <p className="text-[#c8102e] font-bold tracking-widest uppercase text-xs sm:text-sm mb-2">
+                Corporate Partners & CSR Benefactors
+              </p>
+              <h2 className="text-3xl md:text-4xl font-extrabold text-[#0d1f3c]">
+                Supported & Trusted By
+              </h2>
+              <p className="text-gray-600 mt-3 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
+                We are proud to be supported and trusted by forward-thinking organizations who share our commitment to grassroots sports empowerment, youth development, and social transformation.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              {/* Brintons Card */}
+              <a
+                href="https://www.brintons.co.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative bg-white hover:bg-white rounded-3xl p-8 border border-gray-200/90 hover:border-[#c8102e]/40 hover:shadow-xl transition-all duration-300 flex flex-col justify-between"
+              >
+                <div>
+                  <div className="h-20 flex items-center justify-start mb-6">
+                    <img
+                      src="/images/brintons-logo.svg"
+                      alt="Brintons Carpets"
+                      className="h-10 w-auto max-w-[210px] object-contain transition-transform duration-300 group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="inline-block px-3 py-1 rounded-full bg-[#0d1f3c]/5 text-[#0d1f3c] text-xs font-semibold mb-3">
+                    Global Carpet Manufacturer · CSR Partner
+                  </div>
+                  <p className="text-gray-600 text-sm leading-relaxed mb-6">
+                    A global leader in fine woven carpets, Brintons Carpets Asia actively champions local communities and empowers our municipal school athletes with vital resources, sports kits, and training sponsorships.
+                  </p>
+                </div>
+                <div className="flex items-center text-[#c8102e] font-semibold text-sm group-hover:translate-x-1 transition-transform">
+                  <span>Visit brintons.co.in</span>
+                  <ExternalLink size={15} className="ml-1.5" />
+                </div>
+              </a>
+
+              {/* Qualys Card */}
+              <a
+                href="https://www.qualys.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative bg-white hover:bg-white rounded-3xl p-8 border border-gray-200/90 hover:border-[#c8102e]/40 hover:shadow-xl transition-all duration-300 flex flex-col justify-between"
+              >
+                <div>
+                  <div className="h-20 flex items-center justify-start mb-6">
+                    <img
+                      src="/images/qualys-logo.svg"
+                      alt="Qualys"
+                      className="h-10 w-auto max-w-[210px] object-contain transition-transform duration-300 group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="inline-block px-3 py-1 rounded-full bg-[#0d1f3c]/5 text-[#0d1f3c] text-xs font-semibold mb-3">
+                    Cloud Security Leader · Grassroots Champion
+                  </div>
+                  <p className="text-gray-600 text-sm leading-relaxed mb-6">
+                    A pioneer and global cloud security and compliance leader, Qualys is dedicated to social impact, partnering with Kosuke Sports Foundation to nurture underprivileged youth into state and national podium contenders.
+                  </p>
+                </div>
+                <div className="flex items-center text-[#c8102e] font-semibold text-sm group-hover:translate-x-1 transition-transform">
+                  <span>Visit qualys.com</span>
+                  <ExternalLink size={15} className="ml-1.5" />
+                </div>
+              </a>
+            </div>
+
+            {/* Endorsement Note */}
+            <div className="mt-8 max-w-4xl mx-auto rounded-2xl bg-white p-6 border border-gray-200/80 shadow-sm text-center">
+              <p className="text-gray-700 text-xs sm:text-sm leading-relaxed">
+                Kosuke Sports Foundation is honoured to partner with both{" "}
+                <a
+                  href="https://www.brintons.co.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-bold text-[#0d1f3c] hover:text-[#c8102e] underline decoration-gray-300 underline-offset-4 transition-colors"
+                >
+                  Brintons (brintons.co.in)
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://www.qualys.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-bold text-[#0d1f3c] hover:text-[#c8102e] underline decoration-gray-300 underline-offset-4 transition-colors"
+                >
+                  Qualys (qualys.com)
+                </a>{" "}
+                in driving meaningful social change through Olympic sports.
+              </p>
             </div>
           </div>
         </div>
@@ -143,7 +244,7 @@ export default function Giving() {
           <div className="max-w-3xl mx-auto px-4">
             <h2 className="text-3xl font-extrabold mb-4">Sponsor a Future Champion</h2>
             <p className="text-white/80 mb-8 max-w-xl mx-auto text-sm sm:text-base">
-              Partner with Kosuke Sports Foundation to sponsor fencer, equipment, infrastructure, tournament, camps.
+              Partner with Kosuke Sports Foundation — alongside esteemed supporters like Brintons and Qualys — to sponsor fencers, equipment, infrastructure, tournaments, and elite training camps.
             </p>
             <Link
               href="/contact"

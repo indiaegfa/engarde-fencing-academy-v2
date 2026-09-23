@@ -45,7 +45,13 @@ const NAV = [
   },
   { label: "Partners", href: "/partners" },
   { label: "Blog", href: "/blog" },
-  { label: "Support the Mission", href: "/support-the-mission" },
+  {
+    label: "Support the Mission",
+    children: [
+      { label: "Support the Mission", href: "/support-the-mission" },
+      { label: "Our Supporters", href: "/support-the-mission/our-supporters" },
+    ],
+  },
   { label: "Contact Us", href: "/contact" },
 ];
 

@@ -18,6 +18,7 @@ import Events from "./pages/Events";
 import Sponsor from "./pages/Sponsor";
 import Donate from "./pages/Donate";
 import Giving from "./pages/Giving";
+import OurSupporters from "./pages/OurSupporters";
 import Blog from "./pages/Blog";
 
 // Blog sub-pages
@@ -92,6 +93,9 @@ function Router() {
       <Route path="/donate" component={Donate} />
       <Route path="/giving" component={Giving} />
       <Route path="/support-the-mission" component={Giving} />
+      <Route path="/support-the-mission/our-supporters" component={OurSupporters} />
+      <Route path="/support-the-mission/supporters" component={OurSupporters} />
+      <Route path="/our-supporters" component={OurSupporters} />
 
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />

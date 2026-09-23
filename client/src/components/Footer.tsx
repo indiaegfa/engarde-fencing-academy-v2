@@ -13,6 +13,7 @@ const QUICK_LINKS = [
   { label: "Gallery", href: "/gallery" },
   { label: "School Partners", href: "/partners" },
   { label: "Support the Mission", href: "/support-the-mission" },
+  { label: "Our Supporters", href: "/support-the-mission/our-supporters" },
   { label: "Contact Us", href: "/contact" },
 ];
 
@@ -153,6 +154,7 @@ export default function Footer() {
             <Link href="/about/mission" className="hover:text-[#c8102e] transition-colors">Mission</Link>
             <Link href="/partners" className="hover:text-[#c8102e] transition-colors">School Partners</Link>
             <Link href="/support-the-mission" className="hover:text-[#c8102e] transition-colors">Support the Mission</Link>
+            <Link href="/support-the-mission/our-supporters" className="hover:text-[#c8102e] transition-colors">Our Supporters</Link>
           </div>
         </div>
       </div>

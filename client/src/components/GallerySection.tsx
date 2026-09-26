@@ -2,6 +2,9 @@ import { useState } from "react";
 import { X, ZoomIn } from "lucide-react";
 
 const GALLERY_ITEMS = [
+  { src: "/images/JuniorStateFoilGirlsMedal.jpg", alt: "Junior State Championship — Girls Foil Team with Medals", category: "Competition" },
+  { src: "/images/JuniorStateTeamPiste.jpg", alt: "Junior State Championship — Academy Team and Coaches on the Piste", category: "Competition" },
+  { src: "/images/TournamentTourMoments.jpg", alt: "Tournament Travel Moments & Team Bonding", category: "Community" },
   { src: "/images/IMG_8955_76fb8dec.webp", alt: "Coach and athletes at Asian Championships", category: "Competition" },
   { src: "/images/IMG_8965_2208f830.webp", alt: "Athletes at national championship venue", category: "Competition" },
   { src: "/images/3d52f0fc-5779-4eac-b9f7-3d64286319d2_a51ce33e.jpg", alt: "Team of fencers in full gear at competition", category: "Competition" },

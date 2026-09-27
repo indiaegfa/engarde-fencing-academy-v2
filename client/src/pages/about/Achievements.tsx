@@ -113,7 +113,7 @@ const HALL_OF_FAME: Athlete[] = [
 ];
 
 const STATS = [
-  { value: "77", label: "State Championship Medals", sub: "including 24 Gold Medals", icon: Trophy },
+  { value: "81", label: "State Championship Medals", sub: "including 25 Gold Medals", icon: Trophy },
   { value: "35", label: "National Medals", sub: "across all categories", icon: Medal },
   { value: "2+", label: "International Medals", sub: "Thailand Open, ISF Games", icon: Award },
   { value: "200+", label: "Athletes Trained", sub: "since founding", icon: Star }

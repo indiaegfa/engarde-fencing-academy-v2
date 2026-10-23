@@ -51,14 +51,14 @@ export default function OurSupporters() {
 
             {/* Supporter Cards */}
             <div className="space-y-12">
-              {/* Brinton Section */}
+              {/* Brintons Carpets Asia Pvt. Ltd. Section */}
               <div className="bg-white border border-gray-200 rounded-3xl p-8 sm:p-10 shadow-sm hover:shadow-md transition-shadow">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                   <div className="lg:col-span-4 flex flex-col items-start justify-center">
                     <div className="bg-[#f8f9fc] rounded-2xl p-6 border border-gray-100 w-full flex items-center justify-center mb-4">
                       <img
                         src="/images/brintons-logo.svg"
-                        alt="Brinton"
+                        alt="Brintons Carpets Asia Pvt. Ltd."
                         className="h-10 w-auto max-w-[200px] object-contain"
                       />
                     </div>
@@ -77,10 +77,10 @@ export default function OurSupporters() {
                       Infrastructure & Equipment Partner
                     </div>
                     <h3 className="text-2xl font-bold text-[#0d1f3c]">
-                      Brinton & Kosuke Sports Foundation
+                      Brintons Carpets Asia Pvt. Ltd. & Kosuke Sports Foundation
                     </h3>
                     <p className="text-gray-700 leading-relaxed text-base">
-                      <strong>Brinton</strong> has supported the <strong>Kosuke Sports Foundation</strong> by providing training mats and a fencing scoring machine. This support has strengthened our training infrastructure and enabled our fencers to get more opportunities to train and compete using professional equipment.
+                      <strong>Brintons Carpets Asia Pvt. Ltd.</strong> has supported the <strong>Kosuke Sports Foundation</strong> by providing training mats and a fencing scoring machine. This support has strengthened our training infrastructure and enabled our fencers to get more opportunities to train and compete using professional equipment.
                     </p>
                     <div className="pt-2 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-gray-600">
                       <div className="flex items-center gap-2">
@@ -164,7 +164,7 @@ export default function OurSupporters() {
                 Thank You to Our Partners
               </h3>
               <p className="text-white/90 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed mb-8">
-                We sincerely thank Brinton and Qualys for believing in the potential of young athletes and contributing to their journey in fencing.
+                We sincerely thank Brintons Carpets Asia Pvt. Ltd. and Qualys for believing in the potential of young athletes and contributing to their journey in fencing.
               </p>
               <div className="flex flex-wrap items-center justify-center gap-4">
                 <Link
